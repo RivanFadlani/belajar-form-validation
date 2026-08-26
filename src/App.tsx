@@ -1,10 +1,12 @@
+import { useState } from 'react';
+import Product from './components/ui/Product';
+
 const App = () => {
+  const [session, useSession] = useState('ajg');
   return (
-    <>
-      <h1 className="text-7xl text-blue-500">
-        Ohayou Sekai, Good Morning World!
-      </h1>
-    </>
+    <main className="flex min-h-screen w-screen flex-col items-center gap-4">
+      {session ? <Product /> : <div>Login bang</div>}
+    </main>
   );
 };
 
