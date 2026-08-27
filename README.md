@@ -11,6 +11,19 @@ And these are my goals for this learning session, along with the packages I'm us
     - [ ] Styling Product Page with 'Tailwindcss'
     - [ ] Optional: Remake compenent/ui with 'shadcn/ui'
 
+- [ ] Login Form
+    - [x] Styling Login Form with 'Tailwindcss'
+    - [ ] React Hook Form
+        - [x] Impelement RHF with Register Fields
+        - [x] Impelement RHF with Controller
+        - [ ] Optional: Implement shadcn/ui
+    - [ ] Error Handling 
+        - [x] Using 'rules' by RHF
+            - [x] Uncontrolled (Register)
+            - [x] Controlled (Control)
+        - [ ] Using Zod + RHF '@hookform/resolvers'
+
+
 -- {'UPDATE SOON'} --
 
 
