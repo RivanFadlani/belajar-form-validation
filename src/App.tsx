@@ -1,12 +1,12 @@
 import { useState } from 'react';
 import Product from './components/ui/Product';
-import Login from './components/ui/Login';
+import Register from './components/ui/Register';
 
 const App = () => {
   const [session, useSession] = useState<string | null>(null);
   return (
     <main className="flex min-h-screen w-screen flex-col items-center gap-4">
-      {session ? <Product /> : <Login />}
+      {session ? <Product /> : <Register />}
     </main>
   );
 };
