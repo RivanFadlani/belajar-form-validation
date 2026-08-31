@@ -17,11 +17,11 @@ And these are my goals for this learning session, along with the packages I'm us
         - [x] Impelement RHF with Register Fields
         - [x] Impelement RHF with Controller
         - [ ] Optional: Implement shadcn/ui
-    - [ ] Error Handling 
+    - [x] Error Handling 
         - [x] Using 'rules' by RHF
             - [x] Uncontrolled (Register)
             - [x] Controlled (Control)
-        - [ ] Using Zod + RHF '@hookform/resolvers'
+        - [x] Using Zod + RHF '@hookform/resolvers'
 
 
 -- {'UPDATE SOON'} --
